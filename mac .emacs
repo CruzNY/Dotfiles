@@ -115,3 +115,5 @@
 (global-set-key (kbd "M-p") 'avy-goto-char)
 (put 'upcase-region 'disabled nil)
 (put 'downcase-region 'disabled nil)
+(require 'buffer-flip)
+(global-set-key (kbd "C-x p") 'buffer-flip-forward)
